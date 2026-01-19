@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestcon Imóveis</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    <header>
+      <h1>GESTCON IMÓVEIS</h1>
+      <p>Encontre o imóvel ideal com rapidez e segurança</p>
+    </header>
+
+    <div class="card">
+      <form id="leadForm">
+        <input type="text" id="nome" placeholder="Seu nome" required>
+        <input type="tel" id="telefone" placeholder="Seu WhatsApp" required>
+
+        <select id="bairro" required>
+          <option value="">Localização desejada</option>
+          <option value="Recife">Pina</option>
+          <option value="Recife">Boa viagem</option>
+          <option value="Paulista">Paulista</option>
+        </select>
+
+        <input type="number" id="quartos" placeholder="Quantidade de quartos" required>
+
+        <div class="duo">
+          <input type="number" id="areaMin" placeholder="Área mínima (m²)" required>
+          <input type="number" id="areaMax" placeholder="Área máxima (m²)" required>
+        </div>
+
+    
+
+        <button type="submit">FALAR COM A GESTCON NO WHATSAPP</button>
+      </form>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
